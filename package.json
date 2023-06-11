@@ -1,0 +1,37 @@
+{
+  "name": "the-weirbos-nft-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/akaya-telivigala": "^5.0.2",
+    "@fontsource/sora": "^5.0.2",
+    "gsap": "^3.12.1",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-gsap": "^3.2.1",
+    "react-router-dom": "^6.12.1",
+    "react-use": "^17.4.0",
+    "styled-components": "6.0.0-rc.3",
+    "swiper": "^9.3.2",
+    "typewriter-effect": "^2.20.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.9",
+    "@types/react-dom": "^18.2.4",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.42.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "vite": "^4.3.9"
+  }
+}
