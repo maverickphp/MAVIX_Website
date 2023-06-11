@@ -77,20 +77,20 @@ function TypeWriterText() {
   return (
     <>
         <Title>
-      Discover a new era of cool
+      Discover a new era of FiveM
       <Typewriter
       options={{
         autoStart: true,
         loop: true,
       }}
         onInit={(typewriter) => {
-          typewriter.typeString('<span class="text-1">NFTs.</span>')
+          typewriter.typeString('<span class="text-1">ESX Framework</span>')
           .pauseFor(2000)
           .deleteAll()
-          .typeString('<span class="text-2">Collectible Items.</span>')
+          .typeString('<span class="text-2">Custom Premium Scripts</span>')
           .pauseFor(2000)
           .deleteAll()
-          .typeString('<span class="text-3">Ape Killers!</span>')
+          .typeString('<span class="text-3">24/7 Support!</span>')
           .pauseFor(2000)
           .deleteAll()
           .start()
