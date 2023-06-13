@@ -1,15 +1,11 @@
 import styled from 'styled-components';
 import ConfettiComponent from '../Confetti'
-
-import img11 from "../../assets/Nfts/bighead.svg";
 import img1 from "../../assets/Nfts/bighead-1.svg";
 import img2 from "../../assets/Nfts/bighead-2.svg";
 import img3 from "../../assets/Nfts/bighead-3.svg";
 import img4 from "../../assets/Nfts/bighead-4.svg";
 import img5 from "../../assets/Nfts/bighead-5.svg";
 import img6 from "../../assets/Nfts/bighead-6.svg";
-import img7 from "../../assets/Nfts/bighead-7.svg";
-import img9 from "../../assets/Nfts/bighead-10.svg";
 import img8 from "../../assets/Nfts/bighead-8.svg";
 
 
@@ -36,9 +32,9 @@ const Title = styled.h1`
 
 `;
 const Container = styled.div`
-width: 75%;
+width: 59.5%;
 margin: 2rem auto;
-display: flex;
+display: flex	;
 justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
@@ -47,7 +43,7 @@ flex-wrap: wrap;
     width: 80%;
 }
 @media (max-width: 48em){
-    width: 90%;
+    width: 80%;
     justify-content: center;
 }
 `;
@@ -71,7 +67,7 @@ const Item = styled.div`
 width: calc(20rem - 4vw);
 padding: 1rem 0;
 color: ${props => props.theme.body};
-margin: 2rem 1rem;
+margin: 1rem 1rem;
 position: relative;
 z-index: 5;
 
@@ -136,10 +132,6 @@ const Team = () => {
         <MerberComponent img={img3} name='Click <3#4137' position='Junior Developer'/>
         <MerberComponent img={img4} name='Samurai#6969' position='Junior Developer'/>
         <MerberComponent img={img6} name='StaR-LorD#5677' position='Management'/>
-        {/* <MerberComponent img={img7} name='' position=''/>
-
-        <MerberComponent img={img11} name='' position=''/>
-        <MerberComponent img={img9} name='' position=''/> */}
       </Container>
     </Section>
   )
