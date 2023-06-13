@@ -206,18 +206,18 @@ function Roadmap() {
 
   return (
     <Section id='roadmap'>
-      <Title>Roadmap</Title>
+      <Title>Why MAVIX ?</Title>
       <Container>
         <SvgContainer>
           <DrawSvg/>
         </SvgContainer>
         <Items>
         <Item>&nbsp;</Item>
-          <RoadMapItem addToRef={addToRefs} title="Grand Opening" subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."/>
-          <RoadMapItem addToRef={addToRefs} title="Great Benefits" subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."/>
-          <RoadMapItem addToRef={addToRefs} title="Early Access" subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."/>
-          <RoadMapItem addToRef={addToRefs} title="New Merch" subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."/>
-          <RoadMapItem addToRef={addToRefs} title="Holders Ranking" subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."/>
+          <RoadMapItem addToRef={addToRefs} title="Over 5 Years Of Experience ⚡" subtext=""/>
+          <RoadMapItem addToRef={addToRefs} title="Future Assistance 💯" subtext=""/>
+          <RoadMapItem addToRef={addToRefs} title="Adopting New Releases Quickly 💪" subtext=""/>
+          <RoadMapItem addToRef={addToRefs} title="Experienced Developers 🧠" subtext=""/>
+          <RoadMapItem addToRef={addToRefs} title="1000+ 5 ⭐ Reviews" subtext=""/>
  
         </Items>
       </Container>

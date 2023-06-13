@@ -135,20 +135,19 @@ function Footer() {
       </Left>
       <MenuItems>
         <Item onClick={()=>scrollTo('home')}>Home</Item>
-        <Item onClick={()=>scrollTo('roadmap')}>Roadmap</Item>
-        <Item onClick={()=>scrollTo('team')}>Team</Item>
-        <Item onClick={()=>scrollTo('about')}>About</Item>
-        <Item onClick={()=>scrollTo('showcase')}>Showcase</Item>
-        <Item onClick={()=>scrollTo('faq')}>Faq</Item>
+        <Item onClick={()=>scrollTo('roadmap')}>Why Mavix ?</Item>
+        <Item onClick={()=>scrollTo('team')}>Our Developers</Item>
+        <Item onClick={()=>scrollTo('about')}>Our Reviews</Item>
+        <Item onClick={()=>scrollTo('showcase')}>Our Showcase</Item>
+        <Item onClick={()=>scrollTo('faq')}>FAQ</Item>
       </MenuItems>
       </Container>
       <Bottom>
         <span>
-        &copy; {new Date().getFullYear} Weirdos Club. All rights reserved.
+        &copy; {new Date().getFullYear} MAVIX ORG ™ , All Rights Reserved .
         </span>
         <span>
-        Made with &#10084; by <a href='https://portfolio-carlos-hinestroza.vercel.app/' target='_blank' rel='noreferrer'>CarlosAndresH</a>
-        </span>
+        Made With 💖 By MAVIX ORG </span>
       </Bottom>
     </Section>
   )

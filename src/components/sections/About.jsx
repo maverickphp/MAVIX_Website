@@ -138,18 +138,18 @@ function About() {
     <Section id='about'>
       <Container>
         <Box> <Carousel/> </Box>
-        <Box><Title>Welcome To The <br/> Weirdos Club.
+        <Box><Title>Our Happy<br/> Customers
         </Title>
         <SubText>
-        The WEIRDOS CLUB is a private collection of NFTs—unique digital collectibles. The Weirdos are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS.
+        MAVIX ORG is A Private Organization Dealing in FiveM Development , With World Class Developers Working With Us !
         </SubText>
         <SubTextLight>
-        With more than 200+ hand drawn traits, each NFT is unique and comes with a membership to an exclusive group of successful investors. Join an ambitious ever-growing community with multiple benefits and utilities.
+        With More Than 1000+ Clients Worldwide , Each Development is Unique And Comes With All Possible Support . Join The Ever-Growing Community Now !
         </SubTextLight>
         <ButtonContainer>
-          <ThemeProvider theme={dark}>
-            <Button text="JOIN OUR DISCORD" link="#"/>
-          </ThemeProvider>
+          {/* <ThemeProvider theme={dark}>
+            <Button text="JOIN OUR DISCORD" link="https://discord.gg/fz2S9kQNN3"/>
+          </ThemeProvider> */}
         </ButtonContainer>
         </Box>
       </Container>

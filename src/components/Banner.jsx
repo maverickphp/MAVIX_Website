@@ -132,14 +132,14 @@ function Banner() {
   return (
     <Section>
         <ImageContainer>
-            <img src={img1} alt='The weirdos'/>
-            <img src={img2} alt='The weirdos'/>
-            <img src={img3} alt='The weirdos'/>
-            <img src={img4} alt='The weirdos'/>
-            <img src={img5} alt='The weirdos'/>
-            <img src={img6} alt='The weirdos'/>
+            <img src={img1} alt='MAVIX'/>
+            <img src={img2} alt='MAVIX'/>
+            <img src={img3} alt='MAVIX'/>
+            <img src={img4} alt='MAVIXs'/>
+            <img src={img5} alt='MAVIXs'/>
+            <img src={img6} alt='MAVIX'/>
         </ImageContainer>
-        <Title> Join The <br/> Weirdos Club</Title>
+        <Title> Join <br/> MAVIX </Title>
         <BtnContainer>
             <JoiNow>
                 Join Now

@@ -9,6 +9,7 @@ import img4 from "../../assets/Nfts/bighead-4.svg";
 import img5 from "../../assets/Nfts/bighead-5.svg";
 import img6 from "../../assets/Nfts/bighead-6.svg";
 import img7 from "../../assets/Nfts/bighead-7.svg";
+import img9 from "../../assets/Nfts/bighead-10.svg";
 import img8 from "../../assets/Nfts/bighead-8.svg";
 
 
@@ -128,15 +129,17 @@ const Team = () => {
     <ConfettiComponent/>
       <Title>Team</Title>
       <Container>
-        <MerberComponent img={img1} name='MEGNUM' position='Co-Founder'/>
-        <MerberComponent img={img2} name='MONKEY KING' position='Director'/>
-        <MerberComponent img={img3} name='BLACK PANTHER' position='Manager'/>
-        <MerberComponent img={img4} name='DEATHSTROKE' position='Artist'/>
-        <MerberComponent img={img5} name='LAZY KONG' position='Social Media Manager'/>
-        <MerberComponent img={img6} name='CYBER PUNK' position='Blockchain Specialist'/>
-        <MerberComponent img={img7} name='MONK' position='Web3 Developer'/>
-        <MerberComponent img={img8} name='BANANA' position='Graphic Designer'/>
-        <MerberComponent img={img11} name='SKYBLAZE' position='Founder'/>
+        <MerberComponent img={img1} name='Maverick.#6969' position='Founder / Head Developer'/>
+        <MerberComponent img={img2} name='srn#6846' position='CEO / Head Developer'/>
+        <MerberComponent img={img5} name='ploo#3459' position='Senior Developer'/>
+        <MerberComponent img={img8} name='L E T E S#1712' position='Senior Developer'/>
+        <MerberComponent img={img3} name='Click <3#4137' position='Junior Developer'/>
+        <MerberComponent img={img4} name='Samurai#6969' position='Junior Developer'/>
+        <MerberComponent img={img6} name='StaR-LorD#5677' position='Management'/>
+        {/* <MerberComponent img={img7} name='' position=''/>
+
+        <MerberComponent img={img11} name='' position=''/>
+        <MerberComponent img={img9} name='' position=''/> */}
       </Container>
     </Section>
   )

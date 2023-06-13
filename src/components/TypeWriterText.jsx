@@ -87,20 +87,20 @@ function TypeWriterText() {
           typewriter.typeString('<span class="text-1">ESX Framework</span>')
           .pauseFor(2000)
           .deleteAll()
-          .typeString('<span class="text-2">Custom Premium Scripts</span>')
+          .typeString('<span class="text-2">Optm Scripting</span>')
           .pauseFor(2000)
           .deleteAll()
-          .typeString('<span class="text-3">24/7 Support!</span>')
+          .typeString('<span class="text-3">Discord Support</span>')
           .pauseFor(2000)
           .deleteAll()
           .start()
         }}
       />
     </Title>
-    <SubTitle>Bored Of Apes? Try Something New</SubTitle>
-    <ButtonContainer>
+    <SubTitle>Bored Of Pre Made Resouces ? Try Something New</SubTitle>
+    {/* <ButtonContainer>
         <Button text="Explore" link="#about"/>
-    </ButtonContainer>
+    </ButtonContainer> */}
     </>
   );
 }

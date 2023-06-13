@@ -89,25 +89,25 @@ function Faq() {
     <Title>FAQ</Title>
     <Container>
     <Box>
-      <Accordion title="WHERE CAN I VIEW MY NFTS?">
-      Once minted or bought simply connect to your OpenSea account to view your NFTs.
+      <Accordion title="WHERE CAN ORDER MAVIX SERVICES?">
+      You Can Place Your Order Via Our Discord Ticket System Or On Our Fiverr.
       </Accordion>
-      <Accordion title="WHERE CAN I VIEW MY NFTS?">
-      A metaverse is a network of 3D virtual worlds focused on social connection. In futurism and science fiction, it is often described as a hypothetical iteration of the Internet as a single, universal virtual world that is facilitated by the use of virtual and augmented reality headsets.
+      <Accordion title="WHERE CAN I GET SUPPORT?">
+      You Can Get Support Via Our Discord By Creating A Support Ticket Request.
       </Accordion>
-      <Accordion title="WHERE CAN I VIEW MY NFTS?">
-      The amount of royalties was fixed at 5% to finance the Weirdos Clubs projects. We have the ambition to organize multiple events around the world in order to strengthen the community and build a network of entrepreneurs and investors with the same mindset and common interests.
+      <Accordion title="DOES MAVIX ONLY WORK ON ESX FRAMEWORK?">
+      Yes MAVIX ORG Only Works On ESX Latest Framework.
       </Accordion>
     </Box>
     <Box>
-      <Accordion title="HOW CAN I USE MY NFT?">
-      You will be able to use your NFT as an avatar in the Metaverse and our future video game. Holding also means that you are part of an exclusive network of investors and entrepreneurs.
+      <Accordion title="CAN I JUST BUY THE FILES / ASSETS?">
+      Yes You Can Also Purchase Our Files / Assets / Resources.
       </Accordion>
-      <Accordion title="WHAT ARE THE WEIRDOS?">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt consequatur quisquam maxime molestias dolores ipsum, exercitationem vel sint quidem aliquam modi quis impedit corporis unde inventore fugiat provident in.
+      <Accordion title="WHAT IS MAVIX ORG?">
+      MAVIX ORG is A Private Organization Dealing in FiveM Development , With World Class Developers Working With Us.
       </Accordion>
-      <Accordion title="WHAT IS THE FUSION PROCESS?">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim veritatis iusto officia. Exercitationem, ducimus reiciendis. Rem, maxime, similique neque minus aliquam dolore doloremque laboriosam, facilis quibusdam unde sint officia.
+      <Accordion title="WHY CHOOSE US?">
+      MAVIX ORG Has More Than 1000+ Clients Worldwide With 5 ⭐ Ratings , Each Development is Unique And Comes With All Possible Support.
       </Accordion>
     </Box>
     </Container>
