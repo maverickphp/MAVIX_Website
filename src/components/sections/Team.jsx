@@ -1,12 +1,16 @@
 import styled from 'styled-components';
 import ConfettiComponent from '../Confetti'
+import img from "../../assets/Nfts/bighead.svg";
 import img1 from "../../assets/Nfts/bighead-1.svg";
 import img2 from "../../assets/Nfts/bighead-2.svg";
 import img3 from "../../assets/Nfts/bighead-3.svg";
 import img4 from "../../assets/Nfts/bighead-4.svg";
 import img5 from "../../assets/Nfts/bighead-5.svg";
 import img6 from "../../assets/Nfts/bighead-6.svg";
+import img7 from "../../assets/Nfts/bighead-7.svg";
 import img8 from "../../assets/Nfts/bighead-8.svg";
+import img9 from "../../assets/Nfts/bighead-9.svg";
+
 
 
 const Section = styled.section`
@@ -32,7 +36,7 @@ const Title = styled.h1`
 
 `;
 const Container = styled.div`
-width: 59.5%;
+width: 70.5%;
 margin: 2rem auto;
 display: flex	;
 justify-content: space-between;
@@ -127,11 +131,14 @@ const Team = () => {
       <Container>
         <MerberComponent img={img1} name='Maverick.#6969' position='Founder / Head Developer'/>
         <MerberComponent img={img2} name='srn#6846' position='CEO / Head Developer'/>
-        <MerberComponent img={img5} name='ploo#3459' position='Senior Developer'/>
-        <MerberComponent img={img8} name='L E T E S#1712' position='Senior Developer'/>
-        <MerberComponent img={img3} name='Click <3#4137' position='Junior Developer'/>
-        <MerberComponent img={img4} name='Samurai#6969' position='Junior Developer'/>
-        <MerberComponent img={img6} name='StaR-LorD#5677' position='Management'/>
+        <MerberComponent img={img} name='ploo#3459' position='Senior Developer'/>
+        <MerberComponent img={img3} name='Click <3#4137' position='Management'/>
+        <MerberComponent img={img4} name='Samurai#6969' position='Management'/>
+        <MerberComponent img={img6} name='StaR-LorD#5677' position='Discord Developer'/>
+        <MerberComponent img={img8} name='BharaoU#1714' position='Junior Developer'/>
+        <MerberComponent img={img7} name='psychix' position='Web Engineer'/>
+        <MerberComponent img={img5} name='madt.666' position='VFX Generalist'/>
+        <MerberComponent img={img9} name='rubaby' position='GFX Artist'/>
       </Container>
     </Section>
   )

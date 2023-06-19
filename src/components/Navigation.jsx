@@ -156,9 +156,9 @@ const scrollTo = (id) =>{
         <Menu click={click}>
           <MenuItem onClick={()=> scrollTo('home')}>Home</MenuItem>
           <MenuItem onClick={()=> scrollTo('about')}>Our Reviews</MenuItem>
-          <MenuItem onClick={()=> scrollTo('roadmap')}>Why Mavix ?</MenuItem>
+          <MenuItem onClick={()=> scrollTo('roadmap')}>Why MAVIX?</MenuItem>
           <MenuItem onClick={()=> scrollTo('showcase')}>Our Showcase</MenuItem>
-          <MenuItem onClick={()=> scrollTo('team')}>Our Developers</MenuItem>
+          <MenuItem onClick={()=> scrollTo('team')}>Our Team</MenuItem>
           <MenuItem onClick={()=> scrollTo('faq')}>FAQ</MenuItem>
           <MenuItem>
           {/* <div className="mobil">

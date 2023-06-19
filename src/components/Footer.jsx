@@ -135,8 +135,8 @@ function Footer() {
       </Left>
       <MenuItems>
         <Item onClick={()=>scrollTo('home')}>Home</Item>
-        <Item onClick={()=>scrollTo('roadmap')}>Why Mavix ?</Item>
-        <Item onClick={()=>scrollTo('team')}>Our Developers</Item>
+        <Item onClick={()=>scrollTo('roadmap')}>Why MAVIX?</Item>
+        <Item onClick={()=>scrollTo('team')}>Our Team</Item>
         <Item onClick={()=>scrollTo('about')}>Our Reviews</Item>
         <Item onClick={()=>scrollTo('showcase')}>Our Showcase</Item>
         <Item onClick={()=>scrollTo('faq')}>FAQ</Item>

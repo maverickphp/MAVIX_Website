@@ -3,7 +3,7 @@
 export const light = {
 
     body:"#fff",
-    text:"#202020", //black shade
+    text:"#7B1818", //black shade
     bodyRgba : "255, 255, 255",
     textRgba:"32,32,32",
 

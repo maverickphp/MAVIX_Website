@@ -206,7 +206,7 @@ function Roadmap() {
 
   return (
     <Section id='roadmap'>
-      <Title>Why MAVIX ?</Title>
+      <Title>WHY MAVIX?</Title>
       <Container>
         <SvgContainer>
           <DrawSvg/>

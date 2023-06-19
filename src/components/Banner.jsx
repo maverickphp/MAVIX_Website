@@ -139,11 +139,11 @@ function Banner() {
             <img src={img5} alt='MAVIXs'/>
             <img src={img6} alt='MAVIX'/>
         </ImageContainer>
-        <Title> Join <br/> MAVIX </Title>
-        <BtnContainer>
-            <JoiNow>
+        <Title> MAVIX <br/> ORG. </Title>
+        <BtnContainer href='https://www.facebook.com/' target='_blank' rel='noopener noreferrer'>
+            {/* <JoiNow>
                 Join Now
-            </JoiNow>
+            </JoiNow> */}
         </BtnContainer>
     </Section>
   )

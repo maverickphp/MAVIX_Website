@@ -1,7 +1,7 @@
 import  styled, { ThemeProvider } from 'styled-components';
 import Carousel from '../Carousel';
-import Button from '../Button';
-import { dark } from '../../styles/Themes'
+// import Button from '../Button';
+// import { dark } from '../../styles/Themes'
 
 const Container = styled.div`
   width: 75%;
@@ -146,11 +146,11 @@ function About() {
         <SubTextLight>
         With More Than 1000+ Clients Worldwide , Each Development is Unique And Comes With All Possible Support . Join The Ever-Growing Community Now !
         </SubTextLight>
-        <ButtonContainer>
-          {/* <ThemeProvider theme={dark}>
+        {/* <ButtonContainer>
+          <ThemeProvider theme={dark}>
             <Button text="JOIN OUR DISCORD" link="https://discord.gg/fz2S9kQNN3"/>
-          </ThemeProvider> */}
-        </ButtonContainer>
+          </ThemeProvider>
+        </ButtonContainer> */}
         </Box>
       </Container>
     </Section>

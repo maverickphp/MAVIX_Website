@@ -1,17 +1,17 @@
 import styled, { keyframes } from 'styled-components';
 import { useRef } from 'react'
 
-import img1 from "../../assets/Nfts/bighead-1.svg";
-import img2 from "../../assets/Nfts/bighead-2.svg";
-import img3 from "../../assets/Nfts/bighead-3.svg";
-import img4 from "../../assets/Nfts/bighead-4.svg";
-import img5 from "../../assets/Nfts/bighead-5.svg";
-import img6 from "../../assets/Nfts/bighead-6.svg";
-import img7 from "../../assets/Nfts/bighead-7.svg";
-import img8 from "../../assets/Nfts/bighead-8.svg";
-import img9 from "../../assets/Nfts/bighead-9.svg";
-import img10 from "../../assets/Nfts/bighead-10.svg";
-import ETH from '../../assets/icons8-ethereum-48.png'
+// import img1 from "../../assets/Nfts/bighead-1.svg";
+// import img2 from "../../assets/Nfts/bighead-2.svg";
+// import img3 from "../../assets/Nfts/bighead-3.svg";
+// import img4 from "../../assets/Nfts/bighead-4.svg";
+// import img5 from "../../assets/Nfts/bighead-5.svg";
+// import img6 from "../../assets/Nfts/bighead-6.svg";
+// import img7 from "../../assets/Nfts/bighead-7.svg";
+// import img8 from "../../assets/Nfts/bighead-8.svg";
+// import img9 from "../../assets/Nfts/bighead-9.svg";
+// import img10 from "../../assets/Nfts/bighead-10.svg";
+// import ETH from '../../assets/icons8-ethereum-48.png'
 
 const Section = styled.section`
 min-height: 100vh;
@@ -54,7 +54,7 @@ animation: ${move} linear infinite ${props => props.direction};
 const ImgContainer = styled.div`
 width: 15rem;
 margin: 0 1rem;
-background-color: ${props => props.theme.body};
+// background-color: ${props => props.theme.body};
 
 border-radius: 20px;
 cursor: pointer;
@@ -97,19 +97,19 @@ h1{
 }
 }
 `;
-const Price = styled.div`
-display: flex;
-justify-content: flex-start;
-align-items: center;
+// const Price = styled.div`
+// display: flex;
+// justify-content: flex-start;
+// align-items: center;
 
-img{
-  width: 1rem;
-  height: auto;
-}
-`;
+// img{
+//   width: 1rem;
+//   height: auto;
+// }
+// `;
 
 // eslint-disable-next-line react/prop-types
-const NftItem = ({img, number=0, price=0, passRef}) =>{
+const NftItem = ({img, number=0, passRef}) =>{
 
   let play = (e) => {
     // eslint-disable-next-line react/prop-types
@@ -126,16 +126,16 @@ const NftItem = ({img, number=0, price=0, passRef}) =>{
       <img src={img} alt="The Weirdos"></img>
       <Details>
         <div>
-          <span>Weirdos</span><br/>
-          <h1>#{number}</h1>
+          <span></span><br/>
+          <h1>{number}</h1>
         </div>
-        <div>
+        {/* <div>
           <span>Price</span>
           <Price>
             <img src={ETH} alt='ETH'/>
             <h1>{Number(price).toFixed(1)}</h1>
           </Price>
-        </div>
+        </div> */}
       </Details>
     </ImgContainer>
   )
@@ -149,18 +149,18 @@ function Showcase() {
   return (
     <Section id='showcase'>
       <Row direction="none" ref={Row1Ref}>
-        <NftItem img={img1} number="123" price="1.5" passRef = {Row1Ref}/>
-        <NftItem img={img2} number="456" price="1.2" passRef = {Row1Ref}/>
-        <NftItem img={img3} number="666" price="2.3" passRef = {Row1Ref}/>
-        <NftItem img={img4} number="645" price="3.5" passRef = {Row1Ref}/>
-        <NftItem img={img5} number="452" price="4.7" passRef = {Row1Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288503616512020/eupphoriarp.png" number="Euphoria Roleplay" passRef = {Row1Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288503897534597/grindrp.png" number="Grind Roleplay"  passRef = {Row1Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288504165978152/updascoerp.png" number="UpDaScoe Roleplay"  passRef = {Row1Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288504396652544/atlantarp.png" number="Atlanta Roleplay" passRef = {Row1Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288504606371900/ccrp.png" number="Crypto City Roleplay" passRef = {Row1Ref}/>
       </Row>
       <Row direction="reverse" ref={Row2Ref}>
-      <NftItem img={img6} number="999" price="1.6" passRef = {Row2Ref}/>
-        <NftItem img={img7} number="986" price="5.5" passRef = {Row2Ref}/>
-        <NftItem img={img8} number="756" price="6.5" passRef = {Row2Ref}/>
-        <NftItem img={img9} number="542" price="7.5" passRef = {Row2Ref}/>
-        <NftItem img={img10} number="111" price="8.5" passRef = {Row2Ref}/>
+      <NftItem img="https://cdn.discordapp.com/attachments/1118669776718405732/1118670396397453342/eclipse_logo_fivem.gif" number="Eclipse Roleplay"  passRef = {Row2Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/1112704348380745738/1120071387189624902/512_x_512_2.png" number="Montera Roleplay"  passRef = {Row2Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/1116379504848404552/1116437574228115538/logo.png" number="Oblivion City"  passRef = {Row2Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/1115282442916475004/1120291950558457906/logo.png" number="Life of Zone RP"  passRef = {Row2Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/1120293778754912257/1120294073086005288/outda.png" number="Out Da MUD" passRef = {Row2Ref}/>
       </Row>
     </Section>
   )

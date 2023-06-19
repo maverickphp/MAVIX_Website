@@ -21,7 +21,7 @@ const LogoText = styled.h1`
 function Logo() {
   return (
     <LogoText>
-      <Link to="/">MAVIX ORG</Link>
+      <Link to="/">MAVIX ORG.</Link>
     </LogoText>
   );
 }
