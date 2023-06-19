@@ -14,13 +14,13 @@ const Title = styled.h2`
     font-family:'Akaya Telivigala', cursive;
 }
 .text-1{
-    color: blue;
+    color: black;
 }
 .text-2{
-    color: orange;
+    color: black;
 }
 .text-3{
-    color: red;
+    color: black;
 }
 
 @media (max-width: 70em){

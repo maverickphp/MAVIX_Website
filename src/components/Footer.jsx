@@ -1,10 +1,8 @@
 import styled from 'styled-components';
 import Banner from './Banner';
 import Logo from './Logo'
-import {Facebook} from '../Icons/Facebook';
-import {Instagram} from '../Icons/Instagram';
-import {LinkedIn} from '../Icons/LinkedIn';
-import {Twitter} from '../Icons/Twitter';
+import {Fiverr} from '../Icons/Fiverr';
+import {Discord} from '../Icons/Discord';
 
 const Section = styled.section`
 min-height: 100vh;
@@ -127,10 +125,9 @@ function Footer() {
       <Left>
         <Logo/>
         <IconList>
-          <a href='https://www.facebook.com/' target='_blank' rel='noopener noreferrer'><Facebook/></a>
-          <a href='https://www.instagram.com/lupo_cahp/' target='_blank' rel='noopener noreferrer'><Instagram/></a>
-          <a href='https://www.linkedin.com/in/carlos-andr%C3%A9s-hinestroza-p%C3%A9rez-175057211/' target='_blank' rel='noopener noreferrer'><LinkedIn/></a>
-          <a href='https://twitter.com/CarlosAH1101' target='_blank' rel='noopener noreferrer'><Twitter/></a>
+          <a href='https://www.fiverr.com/ploofull' target='_blank' rel='noopener noreferrer'><Fiverr/></a>
+          <a href='https://www.fiverr.com/mavphp' target='_blank' rel='noopener noreferrer'><Fiverr/></a>
+          <a href='https://discord.gg/MPRtevR2Sk' target='_blank' rel='noopener noreferrer'><Discord/></a>
         </IconList>
       </Left>
       <MenuItems>
