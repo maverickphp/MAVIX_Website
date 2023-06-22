@@ -106,9 +106,9 @@ const Home = () => {
           <Box><TypeWriterText/></Box>
           <Box><ConverVideo/></Box>
           <Round>
-            <Circle>
+            {/* <Circle>
               &#x2193;
-            </Circle>
+            </Circle> */}
             <img src={RoundTextBlack} alt="NFT" />
           </Round>
       </Container>

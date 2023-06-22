@@ -97,6 +97,23 @@ h1{
 }
 }
 `;
+const Title = styled.h1`
+font-family: "Helvetica-Bold;
+  font-size: ${(props) => props.theme.fontxxl};
+  text-transform: capitalize;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:  1rem auto;
+  // border-bottom: 2px solid white};
+  width: fit-content;
+
+  @media (max-width: 40em){
+    font-size: ${(props) => props.theme.fontxl};
+  }
+
+`;
 // const Price = styled.div`
 // display: flex;
 // justify-content: flex-start;
@@ -109,7 +126,7 @@ h1{
 // `;
 
 // eslint-disable-next-line react/prop-types
-const NftItem = ({img, number=0, passRef}) =>{
+const NftItem = ({img, name, passRef}) =>{
 
   let play = (e) => {
     // eslint-disable-next-line react/prop-types
@@ -127,15 +144,15 @@ const NftItem = ({img, number=0, passRef}) =>{
       <Details>
         <div>
           <span></span><br/>
-          <h1>{number}</h1>
+          <h1>{name}</h1>
         </div>
-        {/* <div>
-          <span>Price</span>
+        <div>
+          {/* <span>Price</span>
           <Price>
             <img src={ETH} alt='ETH'/>
             <h1>{Number(price).toFixed(1)}</h1>
-          </Price>
-        </div> */}
+          </Price> */}
+        </div>
       </Details>
     </ImgContainer>
   )
@@ -149,18 +166,19 @@ function Showcase() {
   return (
     <Section id='showcase'>
       <Row direction="none" ref={Row1Ref}>
-        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288503616512020/eupphoriarp.png" number="Euphoria Roleplay" passRef = {Row1Ref}/>
-        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288503897534597/grindrp.png" number="Grind Roleplay"  passRef = {Row1Ref}/>
-        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288504165978152/updascoerp.png" number="UpDaScoe Roleplay"  passRef = {Row1Ref}/>
-        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288504396652544/atlantarp.png" number="Atlanta Roleplay" passRef = {Row1Ref}/>
-        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288504606371900/ccrp.png" number="Crypto City Roleplay" passRef = {Row1Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288503616512020/eupphoriarp.png" name="Euphoria Roleplay" passRef = {Row1Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288503897534597/grindrp.png" name="Grind Roleplay"  passRef = {Row1Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288504165978152/updascoerp.png" name="UpDaScoe Roleplay"  passRef = {Row1Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288504396652544/atlantarp.png" name="Atlanta Roleplay" passRef = {Row1Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/711196879316189196/1120288504606371900/ccrp.png" name="Crypto City Roleplay" passRef = {Row1Ref}/>
       </Row>
+      <Title>Showcase</Title>
       <Row direction="reverse" ref={Row2Ref}>
-      <NftItem img="https://cdn.discordapp.com/attachments/1118669776718405732/1118670396397453342/eclipse_logo_fivem.gif" number="Eclipse Roleplay"  passRef = {Row2Ref}/>
-        <NftItem img="https://cdn.discordapp.com/attachments/1112704348380745738/1120071387189624902/512_x_512_2.png" number="Montera Roleplay"  passRef = {Row2Ref}/>
-        <NftItem img="https://cdn.discordapp.com/attachments/1116379504848404552/1116437574228115538/logo.png" number="Oblivion City"  passRef = {Row2Ref}/>
-        <NftItem img="https://cdn.discordapp.com/attachments/1115282442916475004/1120291950558457906/logo.png" number="Life of Zone RP"  passRef = {Row2Ref}/>
-        <NftItem img="https://cdn.discordapp.com/attachments/1120293778754912257/1120294073086005288/outda.png" number="Out Da MUD" passRef = {Row2Ref}/>
+      <NftItem img="https://cdn.discordapp.com/attachments/1118669776718405732/1118670396397453342/eclipse_logo_fivem.gif" name="Eclipse Roleplay"  passRef = {Row2Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/1112704348380745738/1120071387189624902/512_x_512_2.png" name="Montera Roleplay"  passRef = {Row2Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/1116379504848404552/1116437574228115538/logo.png" name="Oblivion City"  passRef = {Row2Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/1115282442916475004/1120291950558457906/logo.png" name="Life of Zone RP"  passRef = {Row2Ref}/>
+        <NftItem img="https://cdn.discordapp.com/attachments/1120293778754912257/1120294073086005288/outda.png" name="Out Da MUD" passRef = {Row2Ref}/>
       </Row>
     </Section>
   )
