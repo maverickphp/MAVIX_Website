@@ -3,6 +3,6 @@
 <b>npm install</b>
 npm install --force
 npm run dev
-npm run buld
+npm run buldss
 
 DIST ( Copy to htdocs of website)
